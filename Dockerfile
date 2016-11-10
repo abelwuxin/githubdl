@@ -10,7 +10,7 @@ RUN git clone https://github.com/cocos2d/cocos2d-x.git
 
 RUN apt-get -y install python
 RUN cd cocos2d-x && echo Yes | python download-deps.py
-RUN echo yes | git submodule update --init
+RUN cd cocos2d-x && git submodule update --init
 
 CMD ["/etc/init.d/ssh", "start", "-D"]
 
