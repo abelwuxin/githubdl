@@ -1,5 +1,5 @@
+FROM daocloud.io/abelwuxin/dl
 # FROM ubuntu
-FORM daocloud.io/abelwuxin/dl
 
 #RUN echo "Asia/Shanghai" > /etc/timezone
 #RUN dpkg-reconfigure -f noninteractive tzdata
