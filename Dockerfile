@@ -19,8 +19,8 @@ FROM daocloud.io/abelwuxin/dl
 # RUN git clone https://github.com/espressif/esp-adf.git && cd esp-adf/ && git checkout -b noahnetsys master && git submodule update --init --recursive
 # RUN wget "https://github.com/adobe-fonts/source-han-sans/archive/release.zip"
 # RUN wget "https://github.com/yousseb/meld/releases/download/osx-17/meldmerge.dmg"
-RUN wget "https://github.com/alicfeng/mysql_markdown/releases/download/1.0.4/mysql_markdown_mac.tar.gz"
-
+# RUN wget "https://github.com/alicfeng/mysql_markdown/releases/download/1.0.4/mysql_markdown_mac.tar.gz"
+RUN wget "https://dbeaver.io/files/dbeaver-ce-latest-macos.dmg"
 
 CMD ["/etc/init.d/ssh", "start", "-D"]
 
